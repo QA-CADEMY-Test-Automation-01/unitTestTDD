@@ -20,7 +20,7 @@ public class Persona {
 
 
     public Persona(String nombre, String apellido) {
-        this.nombre =  StringUtils.capitalizeWord(nombre);
+        this.nombre = StringUtils.capitalizeWord(nombre);
         this.apellido = StringUtils.capitalizeWord(apellido);
     }
 
@@ -30,7 +30,7 @@ public class Persona {
     }
 
 
-    public String  getFullName(){
+    public String getFullName() {
 
         return "".concat(nombre).concat(" ").concat(apellido);
     }

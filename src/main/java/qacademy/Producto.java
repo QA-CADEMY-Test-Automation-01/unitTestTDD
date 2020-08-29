@@ -17,7 +17,7 @@ public class Producto {
         return cantidad;
     }
 
-    private int cantidad;
+    private int cantidad = 1;
 
     public Producto(String nombre, int precio) {
         this.nombre = nombre;

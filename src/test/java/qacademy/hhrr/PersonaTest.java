@@ -1,4 +1,4 @@
-package qacademy;
+package qacademy.hhrr;
 
 import org.junit.Test;
 
@@ -19,9 +19,8 @@ public class PersonaTest {
     }
 
 
-
     @Test
-    public void  getPersonJsonFormat() {
+    public void getPersonJsonFormat() {
         //Arrange
         Persona persona = new Persona("bruno", "barrios", 27);
         String expected = "{\"Name\":\"Bruno\",\"Apellido\":\"Barrios\",\"Full Name\":\"Bruno Barrios\",\"Age\":\"27\"}";

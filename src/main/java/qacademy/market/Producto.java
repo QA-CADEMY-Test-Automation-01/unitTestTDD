@@ -1,4 +1,4 @@
-package qacademy;
+package qacademy.market;
 
 public class Producto {
     private String nombre;

@@ -1,4 +1,4 @@
-package qacademy;
+package qacademy.utils;
 
 public class StringUtils {
     public static String capitalizeWord(String word) {

@@ -1,4 +1,4 @@
-package qacademy;
+package qacademy.market;
 
 import java.util.ArrayList;
 import java.util.List;

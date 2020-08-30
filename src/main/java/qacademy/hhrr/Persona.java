@@ -1,4 +1,6 @@
-package qacademy;
+package qacademy.hhrr;
+
+import qacademy.utils.StringUtils;
 
 public class Persona {
     private String nombre;
